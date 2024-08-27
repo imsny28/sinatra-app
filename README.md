@@ -11,10 +11,10 @@ bundle install
 ```
 
 ```
-rackup -p 4567
+rackup -p 8080
 ```
 
-View at: http://localhost:4567
+View at: http://localhost:8080
 
 # Run the Sinatra Application using Docker
 
@@ -22,4 +22,4 @@ View at: http://localhost:4567
 docker compose up
 ```
 
-View at: http://localhost:4567
+View at: http://localhost:8080
