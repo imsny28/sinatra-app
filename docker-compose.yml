@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    platform: linux/x86_64
+    command: bundle exec puma -C puma.rb
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/Sinatra-Docker

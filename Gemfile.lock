@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    io-console (0.6.0)
+    irb (1.6.4)
+      reline (>= 0.3.0)
+    jwt (2.7.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.9)
+    puma (6.2.2)
+      nio4r (~> 2.0)
+    rack (2.2.7)
+    rack-protection (3.0.6)
+      rack
+    reline (0.3.3)
+      io-console (~> 0.5)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
+      tilt (~> 2.0)
+    tilt (2.1.0)
+    yaml (0.2.1)
+
+PLATFORMS
+  aarch64-linux
+  arm64-darwin-20
+  arm64-darwin-22
+  x86_64-linux
+
+DEPENDENCIES
+  irb
+  jwt
+  puma
+  sinatra
+  yaml
+
+RUBY VERSION
+   ruby 3.2.2p53
+
+BUNDLED WITH
+   2.2.3
